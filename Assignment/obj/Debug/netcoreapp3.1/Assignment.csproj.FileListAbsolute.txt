@@ -1,0 +1,4 @@
+C:\Users\vanisha\Desktop\Vanisha Home\Apptware Code\Assignment_1\Assignment\Assignment\bin\Debug\netcoreapp3.1\Assignment.exe
+C:\Users\vanisha\Desktop\Vanisha Home\Apptware Code\Assignment_1\Assignment\Assignment\obj\Debug\netcoreapp3.1\Assignment.csprojAssemblyReference.cache
+C:\Users\vanisha\Desktop\Vanisha Home\Apptware Code\Assignment_1\Assignment\Assignment\obj\Debug\netcoreapp3.1\Assignment.AssemblyInfoInputs.cache
+C:\Users\vanisha\Desktop\Vanisha Home\Apptware Code\Assignment_1\Assignment\Assignment\obj\Debug\netcoreapp3.1\Assignment.AssemblyInfo.cs
