@@ -719,9 +719,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\vanisha\\Desktop\\Vanisha Home\\Apptware Code\\Assignment_1\\Project\\Assignment\\Assignment.csproj",
-      "projectName": "Assignment",
-      "projectPath": "C:\\Users\\vanisha\\Desktop\\Vanisha Home\\Apptware Code\\Assignment_1\\Project\\Assignment\\Assignment.csproj",
+      "projectUniqueName": "C:\\Users\\vanisha\\Desktop\\Vanisha Home\\Apptware Code\\Assignment_1\\Project\\Assignment\\OHLC.csproj",
+      "projectName": "OHLC",
+      "projectPath": "C:\\Users\\vanisha\\Desktop\\Vanisha Home\\Apptware Code\\Assignment_1\\Project\\Assignment\\OHLC.csproj",
       "packagesPath": "C:\\Users\\vanisha\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\vanisha\\Desktop\\Vanisha Home\\Apptware Code\\Assignment_1\\Project\\Assignment\\obj\\",
       "projectStyle": "PackageReference",
@@ -774,6 +774,9 @@
         "assetTargetFallback": true,
         "warn": true,
         "frameworkReferences": {
+          "Microsoft.AspNetCore.App": {
+            "privateAssets": "none"
+          },
           "Microsoft.NETCore.App": {
             "privateAssets": "all"
           }
