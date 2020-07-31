@@ -22,7 +22,6 @@ C:\Users\vanisha\Desktop\Vanisha Home\Apptware Code\Assignment_1\Project\OHLC\bi
 C:\Users\vanisha\Desktop\Vanisha Home\Apptware Code\Assignment_1\Project\OHLC\bin\Debug\netcoreapp3.1\OHLC.pdb
 C:\Users\vanisha\Desktop\Vanisha Home\Apptware Code\Assignment_1\Project\OHLC\bin\Debug\netcoreapp3.1\ConsoleTables.dll
 C:\Users\vanisha\Desktop\Vanisha Home\Apptware Code\Assignment_1\Project\OHLC\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
-C:\Users\vanisha\Desktop\Vanisha Home\Apptware Code\Assignment_1\Project\OHLC\obj\Debug\netcoreapp3.1\OHLC.csprojAssemblyReference.cache
 C:\Users\vanisha\Desktop\Vanisha Home\Apptware Code\Assignment_1\Project\OHLC\obj\Debug\netcoreapp3.1\OHLC.AssemblyInfoInputs.cache
 C:\Users\vanisha\Desktop\Vanisha Home\Apptware Code\Assignment_1\Project\OHLC\obj\Debug\netcoreapp3.1\OHLC.AssemblyInfo.cs
 C:\Users\vanisha\Desktop\Vanisha Home\Apptware Code\Assignment_1\Project\OHLC\obj\Debug\netcoreapp3.1\OHLC.csproj.CopyComplete

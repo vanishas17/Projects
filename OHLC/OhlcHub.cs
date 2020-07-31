@@ -3,6 +3,7 @@ using Assignment.Models;
 using Assignment.Util;
 using ConsoleTables;
 using Microsoft.AspNetCore.SignalR;
+using Microsoft.Extensions.Logging;
 using Newtonsoft.Json;
 using System;
 using System.Collections.Generic;
@@ -25,7 +26,13 @@ namespace Assignment
         static string _inputStockName = String.Empty;
         static double _inputinterval = 15; //Setting default interval for bar to be 15 seconds
 
-        
+
+        private readonly ILogger _logger;
+        public OhlcHub(ILogger<OhlcHub> logger)
+        {
+            _logger = logger;
+        }
+
         public async Task SendMessage(string eventname, string stockname, string interval)
         {
             _inputStockName = stockname;
@@ -80,8 +87,6 @@ namespace Assignment
                     {
 
                         //Logic to print the previous block data
-                        
-
                         await PrintBarOutput();
                         Thread.Sleep(100);
                         //increment the bar_num
@@ -108,7 +113,7 @@ namespace Assignment
 
                 if (result != null)
                 {
-                    Console.WriteLine("================================== BAR {0} ====================================\n\n", bar_num);
+                    Console.WriteLine("\n================================== BAR {0} ====================================\n\n", bar_num);
 
                     if (table == null)
                     {

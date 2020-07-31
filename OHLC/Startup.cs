@@ -1,6 +1,7 @@
 ﻿using Microsoft.AspNetCore.Builder;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
+using Microsoft.Extensions.Logging;
 
 namespace Assignment
 {
@@ -16,6 +17,8 @@ namespace Assignment
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddSignalR();
+            services.AddLogging(configure => configure.AddConsole())
+           .AddTransient<OhlcHub>();
         }
 
         public void Configure(IApplicationBuilder app)

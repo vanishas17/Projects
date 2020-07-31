@@ -88,7 +88,6 @@ namespace Assignment.Util
             } catch(Exception ex)
             {
                 Console.WriteLine("Error occurred in ohlc processing");
-                ohlc = new Ohlc();
             }           
 
             return ohlc;

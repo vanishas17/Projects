@@ -28,4 +28,3 @@ C:\Users\vanisha\Desktop\Vanisha Home\Apptware Code\Assignment_1\Project\OHLC_Cl
 C:\Users\vanisha\Desktop\Vanisha Home\Apptware Code\Assignment_1\Project\OHLC_Client\obj\Debug\netcoreapp3.1\OHLC_Client.csproj.CopyComplete
 C:\Users\vanisha\Desktop\Vanisha Home\Apptware Code\Assignment_1\Project\OHLC_Client\obj\Debug\netcoreapp3.1\OHLC_Client.dll
 C:\Users\vanisha\Desktop\Vanisha Home\Apptware Code\Assignment_1\Project\OHLC_Client\obj\Debug\netcoreapp3.1\OHLC_Client.pdb
-C:\Users\vanisha\Desktop\Vanisha Home\Apptware Code\Assignment_1\Project\OHLC_Client\obj\Debug\netcoreapp3.1\OHLC_Client.csprojAssemblyReference.cache
