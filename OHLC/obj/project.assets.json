@@ -719,11 +719,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\vanisha\\Desktop\\Vanisha Home\\Apptware Code\\Assignment_1\\Project\\Assignment\\OHLC.csproj",
+      "projectUniqueName": "C:\\Users\\vanisha\\Desktop\\Vanisha Home\\Apptware Code\\Assignment_1\\Project\\OHLC\\OHLC.csproj",
       "projectName": "OHLC",
-      "projectPath": "C:\\Users\\vanisha\\Desktop\\Vanisha Home\\Apptware Code\\Assignment_1\\Project\\Assignment\\OHLC.csproj",
+      "projectPath": "C:\\Users\\vanisha\\Desktop\\Vanisha Home\\Apptware Code\\Assignment_1\\Project\\OHLC\\OHLC.csproj",
       "packagesPath": "C:\\Users\\vanisha\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\vanisha\\Desktop\\Vanisha Home\\Apptware Code\\Assignment_1\\Project\\Assignment\\obj\\",
+      "outputPath": "C:\\Users\\vanisha\\Desktop\\Vanisha Home\\Apptware Code\\Assignment_1\\Project\\OHLC\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Microsoft\\Xamarin\\NuGet\\"
