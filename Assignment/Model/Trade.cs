@@ -6,6 +6,9 @@ using System.Text;
 
 namespace Assignment.Models
 {
+    /// <summary>
+    /// Used to map the feed file in Trade Object
+    /// </summary>
     class Trade
     {
         [JsonProperty("sym")]
@@ -28,7 +31,7 @@ namespace Assignment.Models
                 DateTime epocTime = new DateTime(1970, 1, 1, 0, 0, 0, DateTimeKind.Utc);
 
                 DateTime result = epocTime.AddTicks(nanoseconds / 100);
-
+               
                 return DateTime.ParseExact(result.ToString("yyyy-MM-dd HH:mm:ss"), "yyyy-MM-dd HH:mm:ss", null);
             }
         }

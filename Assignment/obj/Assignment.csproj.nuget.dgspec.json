@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\vanisha\\Desktop\\Vanisha Home\\Apptware Code\\Assignment_1\\Assignment\\Assignment\\Assignment.csproj": {}
+    "C:\\Users\\vanisha\\Desktop\\Vanisha Home\\Apptware Code\\Assignment_1\\Project\\Assignment\\Assignment.csproj": {}
   },
   "projects": {
-    "C:\\Users\\vanisha\\Desktop\\Vanisha Home\\Apptware Code\\Assignment_1\\Assignment\\Assignment\\Assignment.csproj": {
+    "C:\\Users\\vanisha\\Desktop\\Vanisha Home\\Apptware Code\\Assignment_1\\Project\\Assignment\\Assignment.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\vanisha\\Desktop\\Vanisha Home\\Apptware Code\\Assignment_1\\Assignment\\Assignment\\Assignment.csproj",
+        "projectUniqueName": "C:\\Users\\vanisha\\Desktop\\Vanisha Home\\Apptware Code\\Assignment_1\\Project\\Assignment\\Assignment.csproj",
         "projectName": "Assignment",
-        "projectPath": "C:\\Users\\vanisha\\Desktop\\Vanisha Home\\Apptware Code\\Assignment_1\\Assignment\\Assignment\\Assignment.csproj",
+        "projectPath": "C:\\Users\\vanisha\\Desktop\\Vanisha Home\\Apptware Code\\Assignment_1\\Project\\Assignment\\Assignment.csproj",
         "packagesPath": "C:\\Users\\vanisha\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\vanisha\\Desktop\\Vanisha Home\\Apptware Code\\Assignment_1\\Assignment\\Assignment\\obj\\",
+        "outputPath": "C:\\Users\\vanisha\\Desktop\\Vanisha Home\\Apptware Code\\Assignment_1\\Project\\Assignment\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\"
@@ -42,6 +42,10 @@
       "frameworks": {
         "netcoreapp3.1": {
           "dependencies": {
+            "ConsoleTables": {
+              "target": "Package",
+              "version": "[2.4.2, )"
+            },
             "Newtonsoft.Json": {
               "target": "Package",
               "version": "[12.0.3, )"
