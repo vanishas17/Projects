@@ -8,8 +8,22 @@ Every stock that falls in the bar interval is analyzed for its ohlc values. The 
 
 Implementation
 
-The application is implemented using producer consumer pattern.
+The application is implemented using producer consumer pattern. Both Producer and Consumer run on different threads.
 The Producer(Reader) task will read all the feed data from the trade.json file and fill the BufferBlock.
 The Consumer(Processor) task will process the data tick by tick and calculate the ohlc and display the output for every 15 second interval
+
+For websocket client server communications, SignalR nuget package is used.
+
+Code Structure
+
+The solution contains two projects. OHLC and OHLC_Client
+OHLC is the server that performs the analysis logic
+OHLC_Client is a client which can subscribe to the server
+
+Currently the implementation supports creating a websocket connection and triggering the analyzer. Client subscription to server is pending.
+
+Execution
+
+Both the projects are set as startup projects and should be executed together.
 
 Note: Unit test cases are not included.
