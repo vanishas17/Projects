@@ -13,6 +13,7 @@ The Producer(Reader) task will read all the feed data from the trade.json file a
 The Consumer(Processor) task will process the data tick by tick and calculate the ohlc and display the output for every 15 second interval
 
 For websocket client server communications, SignalR nuget package is used.
+For dev testing , 2000 records are used.
 
 Code Structure:
 
