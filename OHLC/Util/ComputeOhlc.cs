@@ -87,7 +87,7 @@ namespace Assignment.Util
                 }
             } catch(Exception ex)
             {
-                Console.WriteLine("Error occurred in ohlc processing");
+                Console.WriteLine("Error occurred in ohlc processing" + ex.Message);
             }           
 
             return ohlc;
