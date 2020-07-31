@@ -74,7 +74,7 @@ namespace Assignment
                     _interval_end_time = _interval_start_time.AddSeconds(_inputinterval);
 
                     await c.FetchBarStats(newTrade, bar_num);
-                    table = new ConsoleTable("Stock", "Open", "High", "Low", "Volume", "Close", "Time");
+                    table = new ConsoleTable("Stock", "Open", "High", "Low", "Volume", "Close", "Trade-In Time");
                 }
                 else
                 {
@@ -88,7 +88,7 @@ namespace Assignment
 
                         //Logic to print the previous block data
                         await PrintBarOutput();
-                        Thread.Sleep(100);
+                        Thread.Sleep(1000);
                         //increment the bar_num
                         bar_num++;
 
@@ -117,7 +117,7 @@ namespace Assignment
 
                     if (table == null)
                     {
-                        table = new ConsoleTable("Stock", "Open", "High", "Low", "Volume", "Close", "Time");
+                        table = new ConsoleTable("Stock", "Open", "High", "Low", "Volume", "Close", "Trade-In Time");
                     }
 
                     foreach (var item in result)
